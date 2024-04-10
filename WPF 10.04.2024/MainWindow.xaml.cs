@@ -32,6 +32,16 @@ namespace WPF_10._04._2024
 
             Reihe.Text = reihe.ToString();
             Parallel.Text = parallel.ToString();
+
+            if(parallel == 0)
+            {
+                MessageBox.Show("Parallele Ersatzwiederstandswert soll nicht null sein!");
+            }
+
+            else if(reihe < 0)
+            {
+               MessageBox.Show("Reihe Eresatzwiederstandswert soll nicht kleiner als null sein!");
+            }  
         }
 
         private void Löschen_Click(object sender, RoutedEventArgs e)
