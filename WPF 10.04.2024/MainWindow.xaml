@@ -8,6 +8,7 @@
         Title="Wiederstand" Height="350" Width="500">
     <Grid Background="#8576FF">
         <Border Background="#DBE9F9" Height="300" Width="450" CornerRadius="40"/>
+        <Image Source="N:\SKS\Pool\T21\Krinke\Images\Schaltungen.png" Margin="296,98,64,149"/>
         <Label Height="30" Width="100" Content="R1 in Ohm" FontSize="18" FontWeight="Light" VerticalContentAlignment="Bottom" RenderTransformOrigin="0.49,0.5" Margin="38,17,362,267"/>
         <Label Height="30" Width="100" Content="R2 in Ohm" FontSize="18" FontWeight="Light" VerticalContentAlignment="Bottom" RenderTransformOrigin="0.49,0.5" Margin="38,99,362,185"/>
         <TextBox x:Name="R1" Height="25" Width="50" VerticalContentAlignment="Center" ForceCursor="True" Foreground="Black" FontSize="16" FontWeight="Light" Margin="173,32,277,277"/>
